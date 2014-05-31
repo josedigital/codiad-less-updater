@@ -12,9 +12,6 @@
 
 	$target_url = 'http://yourdomain.com/accept/index.php';
 	
-	// This needs to be the full path to the file you want to send.
-	$file_name_with_full_path = realpath('./korova.css');
-
 	// Get all CSS files in same directory
 	$files = glob('./*.css');
 
